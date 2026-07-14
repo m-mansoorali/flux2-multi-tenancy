@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: podinfo
-  namespace: apps
+  namespace: team-c-apps
 spec:
   chart:
     spec:
